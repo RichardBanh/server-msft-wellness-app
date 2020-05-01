@@ -4,20 +4,11 @@ const app = express();
 
 //CRUD
 
-
+const dataRoute = require('./Routes/dataRoute')
 
 // middleware
-app.use('/posts', ()=>{
-  console.log('this is middleware')
-})
+app.use('/', dataRoute);
 
-app.get("/", (req, res) => {
-  res.send("We are on home");
-});
-
-app.get("/posts", (req, res) => {
-  res.send("we are on posts")
-});
 
 // app.post();
 // app.put();
