@@ -2,11 +2,16 @@ const express = require("express");
 
 const app = express();
 
+const consoleLogger = require("./Middleware/middleware")
+
 //CRUD
 
 const dataRoute = require('./Routes/dataRoute')
 
 // middleware
+app.use(consoleLogger)
+
+//routes
 app.use('/', dataRoute);
 
 
