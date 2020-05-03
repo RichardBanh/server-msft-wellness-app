@@ -1,0 +1,11 @@
+{
+  "Health & Wellbeing": [{"Image":"../Assets/Images/CategoriesImages/health","Description":"balkjfglkasdlkfhal"}],
+  "Skill Development": [{"Image":"../Assets/Images/CategoriesImages/skills","Description":"balkjfglkasdlkfhal"}],
+  "Arts & Crafts": [{"Image":"../Assets/Images/CategoriesImages/arts","Description":"balkjfglkasdlkfhal"}],
+  "Cooking": [{"Image":"../Assets/Images/CategoriesImages/cooking","Description":"balkjfglkasdlkfhal"}],
+  "Language": [{"Image":"../Assets/Images/CategoriesImages/language","Description":"balkjfglkasdlkfhal"}],
+  "Photography": [{"Image":"../Assets/Images/CategoriesImages/photography","Description":"balkjfglkasdlkfhal"}],
+  "Career": [{"Image":"../Assets/Images/CategoriesImages/Career","Description":"balkjfglkasdlkfhal"}],
+  "Tech": [{"Image":"../Assets/Images/CategoriesImages/Tech","Description":"balkjfglkasdlkfhal"}],
+  "Music": [{"Image":"../Assets/Images/CategoriesImages/Music","Description":"balkjfglkasdlkfhal"}]
+}
