@@ -4,9 +4,9 @@ const router = express.Router();
 
 router.route("/").get(getData)
 
-router.route("/createUser/:id").post(createUser)
+router.route("/createUser").post(createUser)
 
-router.route("/user/:id").get(getUser)
+router.route("/user").get(getUser)
 
 router.route("/activity").get(getActivity)
 

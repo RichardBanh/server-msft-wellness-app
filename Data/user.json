@@ -2,91 +2,71 @@
   {
     "user": "janice12",
     "imageLocation": "../Assets/Images/1",
-    "ActiveChallenges": [
-      { "0": "Sleep", "1": "Reduce Mobile Usage", "2": "TeamProject" }
-    ],
-    "Rewards": [{}],
-    "PastChallenges": [{ "0": "Poop" }]
+    "ActiveChallenges": ["Sleep", "Reduce Mobile Usage", "TeamProject"],
+    "Rewards": [],
+    "PastChallenges": ["Poop"]
   },
   {
     "user": "tom",
     "imageLocation": "../Assets/Images/2",
-    "ActiveChallenges": [
-      { "0": "Sleep", "1": "Reduce Mobile Usage", "2": "TeamProject" }
-    ],
-    "Rewards": [{}],
-    "PastChallenges": [{ "0": "Poop" }]
+    "ActiveChallenges": ["Sleep", "Reduce Mobile Usage", "TeamProject"],
+    "Rewards": [],
+    "PastChallenges": ["Poop"]
   },
   {
     "user": "tony",
     "imageLocation": "../Assets/Images/3",
-    "ActiveChallenges": [
-      { "0": "Sleep", "1": "Reduce Mobile Usage", "2": "TeamProject" }
-    ],
-    "Rewards": [{}],
-    "PastChallenges": [{ "0": "Poop" }]
+    "ActiveChallenges": ["Sleep", "Reduce Mobile Usage", "TeamProject"],
+    "Rewards": [],
+    "PastChallenges": ["Poop"]
   },
   {
     "user": "cathy",
     "imageLocation": "../Assets/Images/4",
-    "ActiveChallenges": [
-      { "0": "Sleep", "1": "Reduce Mobile Usage", "2": "TeamProject" }
-    ],
-    "Rewards": [{}],
-    "PastChallenges": [{ "0": "Poop" }]
+    "ActiveChallenges": ["Sleep", "Reduce Mobile Usage", "TeamProject"],
+    "Rewards": [],
+    "PastChallenges": ["Poop"]
   },
   {
     "user": "mohammed",
     "imageLocation": "../Assets/Images/5",
-    "ActiveChallenges": [
-      { "0": "Sleep", "1": "Reduce Mobile Usage", "2": "TeamProject" }
-    ],
-    "Rewards": [{}],
-    "PastChallenges": [{ "0": "Poop" }]
+    "ActiveChallenges": ["Sleep", "Reduce Mobile Usage", "TeamProject"],
+    "Rewards": [],
+    "PastChallenges": ["Poop"]
   },
   {
     "user": "keith",
     "imageLocation": "../Assets/Images/6",
-    "ActiveChallenges": [
-      { "0": "Sleep", "1": "Reduce Mobile Usage", "2": "TeamProject" }
-    ],
-    "Rewards": [{}],
-    "PastChallenges": [{ "0": "Poop" }]
+    "ActiveChallenges": ["Sleep", "Reduce Mobile Usage", "TeamProject"],
+    "Rewards": [],
+    "PastChallenges": ["Poop"]
   },
   {
     "user": "inez",
     "imageLocation": "../Assets/Images/7",
-    "ActiveChallenges": [
-      { "0": "Sleep", "1": "Reduce Mobile Usage", "2": "TeamProject" }
-    ],
-    "Rewards": [{}],
-    "PastChallenges": [{ "0": "Poop" }]
+    "ActiveChallenges": ["Sleep", "Reduce Mobile Usage", "TeamProject"],
+    "Rewards": [],
+    "PastChallenges": ["Poop"]
   },
   {
     "user": "christina",
     "imageLocation": "../Assets/Images/8",
-    "ActiveChallenges": [
-      { "0": "Sleep", "1": "Reduce Mobile Usage", "2": "TeamProject" }
-    ],
-    "Rewards": [{}],
-    "PastChallenges": [{ "0": "Poop" }]
+    "ActiveChallenges": ["Sleep", "Reduce Mobile Usage", "TeamProject"],
+    "Rewards": [],
+    "PastChallenges": ["Poop"]
   },
   {
     "user": "erin",
     "imageLocation": "../Assets/Images/9",
-    "ActiveChallenges": [
-      { "0": "Sleep", "1": "Reduce Mobile Usage", "2": "TeamProject" }
-    ],
-    "Rewards": [{}],
-    "PastChallenges": [{ "0": "Poop" }]
+    "ActiveChallenges": ["Sleep", "Reduce Mobile Usage", "TeamProject"],
+    "Rewards": [],
+    "PastChallenges": ["Poop"]
   },
   {
     "user": "jessie",
     "imageLocation": "../Assets/Images/10",
-    "ActiveChallenges": [
-      { "0": "Sleep", "1": "Reduce Mobile Usage", "2": "TeamProject" }
-    ],
-    "Rewards": [{}],
-    "PastChallenges": [{ "0": "Poop" }]
+    "ActiveChallenges": ["Sleep", "Reduce Mobile Usage", "TeamProject"],
+    "Rewards": [],
+    "PastChallenges": ["Poop"]
   }
 ]

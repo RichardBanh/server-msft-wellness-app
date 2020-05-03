@@ -4,21 +4,16 @@
     "ACTIVE": "active",
     "start": "202012",
     "BannerImg": "",
-    "category": [
-      {
-        "0": "Food"
-      }
-    ],
+    "category": ["Food"],
     "participants": [
       {
-        "Janice12": [
-          {
-            "progress": "20%",
-            "notes": "",
-            "images": "",
-            "milestones": [{}]
-          }
-        ]
+        "user": "Janice12",
+        "progress": "20%",
+        "notes": "",
+        "images": "",
+        "milestones": [],
+        "start": "03/05/2020",
+        "end": "20/05/2020"
       }
     ]
   },
@@ -34,14 +29,13 @@
     ],
     "participants": [
       {
-        "tom": [
-          {
-            "progress": "40%",
-            "notes": "",
-            "images": "",
-            "milestones": [{}]
-          }
-        ]
+        "user": "tom",
+        "progress": "40%",
+        "notes": "",
+        "images": "",
+        "milestones": [],
+        "start": "03/05/2020",
+        "end": "20/05/2020"
       }
     ]
   },
@@ -57,14 +51,13 @@
     ],
     "participants": [
       {
-        "tony": [
-          {
-            "progress": "30%",
-            "notes": "",
-            "images": "",
-            "milestones": [{}]
-          }
-        ]
+        "user": "tony",
+        "progress": "30%",
+        "notes": "",
+        "images": "",
+        "milestones": [],
+        "start": "03/05/2020",
+        "end": "20/05/2020"
       }
     ]
   },
@@ -80,14 +73,13 @@
     ],
     "participants": [
       {
-        "tom": [
-          {
-            "progress": "50%",
-            "notes": "",
-            "images": "",
-            "milestones": [{}]
-          }
-        ]
+        "user": "tom",
+        "progress": "50%",
+        "notes": "",
+        "images": "",
+        "milestones": [],
+        "start": "03/05/2020",
+        "end": "20/05/2020"
       }
     ]
   },
@@ -103,14 +95,13 @@
     ],
     "participants": [
       {
-        "cathy": [
-          {
-            "progress": "65%",
-            "notes": "",
-            "images": "",
-            "milestones": [{}]
-          }
-        ]
+        "user": "cathy",
+        "progress": "65%",
+        "notes": "",
+        "images": "",
+        "milestones": [],
+        "start": "03/05/2020",
+        "end": "20/05/2020"
       }
     ]
   },
@@ -126,14 +117,13 @@
     ],
     "participants": [
       {
-        "keith": [
-          {
-            "progress": "90%",
-            "notes": "",
-            "images": "",
-            "milestones": [{}]
-          }
-        ]
+        "user": "keith",
+        "progress": "90%",
+        "notes": "",
+        "images": "",
+        "milestones": [],
+        "start": "03/05/2020",
+        "end": "20/05/2020"
       }
     ]
   },
@@ -149,14 +139,13 @@
     ],
     "participants": [
       {
-        "tony": [
-          {
-            "progress": "1%",
-            "notes": "",
-            "images": "",
-            "milestones": [{}]
-          }
-        ]
+        "user": "tony",
+        "progress": "1%",
+        "notes": "",
+        "images": "",
+        "milestones": [],
+        "start": "03/05/2020",
+        "end": "20/05/2020"
       }
     ]
   },
@@ -172,14 +161,13 @@
     ],
     "participants": [
       {
-        "tony": [
-          {
-            "progress": "100%",
-            "notes": "",
-            "images": "",
-            "milestones": [{}]
-          }
-        ]
+        "user": "tony",
+        "progress": "100%",
+        "notes": "",
+        "images": "",
+        "milestones": [],
+        "start": "03/05/2020",
+        "end": "20/05/2020"
       }
     ]
   },
@@ -195,14 +183,13 @@
     ],
     "participants": [
       {
-        "cathy": [
-          {
-            "progress": "20%",
-            "notes": "",
-            "images": "",
-            "milestones": [{}]
-          }
-        ]
+        "user": "cathy",
+        "progress": "20%",
+        "notes": "",
+        "images": "",
+        "milestones": [],
+        "start": "03/05/2020",
+        "end": "20/05/2020"
       }
     ]
   },
@@ -218,14 +205,13 @@
     ],
     "participants": [
       {
-        "christina": [
-          {
-            "progress": "100%",
-            "notes": "",
-            "images": "",
-            "milestones": [{}]
-          }
-        ]
+        "user": "christina",
+        "progress": "100%",
+        "notes": "",
+        "images": "",
+        "milestones": [],
+        "start": "03/05/2020",
+        "end": "20/05/2020"
       }
     ]
   }
