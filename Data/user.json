@@ -1,82 +1,102 @@
-{
-  "janice12": {
-    "imageLocation": "../Assets/Images/1",
-    "ActiveChallenges": [
-      { "0": "Sleep", "1": "Reduce Mobile Usage", "2": "TeamProject" }
-    ],
-    "Rewards": [{}],
-    "PastChallenges": [{ "0": "Poop" }]
+[
+  {
+    "janice12": {
+      "imageLocation": "../Assets/Images/1",
+      "ActiveChallenges": [
+        { "0": "Sleep", "1": "Reduce Mobile Usage", "2": "TeamProject" }
+      ],
+      "Rewards": [{}],
+      "PastChallenges": [{ "0": "Poop" }]
+    }
   },
-  "tom": {
-    "imageLocation": "../Assets/Images/2",
-    "ActiveChallenges": [
-      { "0": "Sleep", "1": "Reduce Mobile Usage", "2": "TeamProject" }
-    ],
-    "Rewards": [{}],
-    "PastChallenges": [{ "0": "Poop" }]
+  {
+    "tom": {
+      "imageLocation": "../Assets/Images/2",
+      "ActiveChallenges": [
+        { "0": "Sleep", "1": "Reduce Mobile Usage", "2": "TeamProject" }
+      ],
+      "Rewards": [{}],
+      "PastChallenges": [{ "0": "Poop" }]
+    }
   },
-  "tony": {
-    "imageLocation": "../Assets/Images/3",
-    "ActiveChallenges": [
-      { "0": "Sleep", "1": "Reduce Mobile Usage", "2": "TeamProject" }
-    ],
-    "Rewards": [{}],
-    "PastChallenges": [{ "0": "Poop" }]
+  {
+    "tony": {
+      "imageLocation": "../Assets/Images/3",
+      "ActiveChallenges": [
+        { "0": "Sleep", "1": "Reduce Mobile Usage", "2": "TeamProject" }
+      ],
+      "Rewards": [{}],
+      "PastChallenges": [{ "0": "Poop" }]
+    }
   },
-  "cathy": {
-    "imageLocation": "../Assets/Images/4",
-    "ActiveChallenges": [
-      { "0": "Sleep", "1": "Reduce Mobile Usage", "2": "TeamProject" }
-    ],
-    "Rewards": [{}],
-    "PastChallenges": [{ "0": "Poop" }]
+  {
+    "cathy": {
+      "imageLocation": "../Assets/Images/4",
+      "ActiveChallenges": [
+        { "0": "Sleep", "1": "Reduce Mobile Usage", "2": "TeamProject" }
+      ],
+      "Rewards": [{}],
+      "PastChallenges": [{ "0": "Poop" }]
+    }
   },
-  "mohammed": {
-    "imageLocation": "../Assets/Images/5",
-    "ActiveChallenges": [
-      { "0": "Sleep", "1": "Reduce Mobile Usage", "2": "TeamProject" }
-    ],
-    "Rewards": [{}],
-    "PastChallenges": [{ "0": "Poop" }]
+  {
+    "mohammed": {
+      "imageLocation": "../Assets/Images/5",
+      "ActiveChallenges": [
+        { "0": "Sleep", "1": "Reduce Mobile Usage", "2": "TeamProject" }
+      ],
+      "Rewards": [{}],
+      "PastChallenges": [{ "0": "Poop" }]
+    }
   },
-  "keith": {
-    "imageLocation": "../Assets/Images/6",
-    "ActiveChallenges": [
-      { "0": "Sleep", "1": "Reduce Mobile Usage", "2": "TeamProject" }
-    ],
-    "Rewards": [{}],
-    "PastChallenges": [{ "0": "Poop" }]
+  {
+    "keith": {
+      "imageLocation": "../Assets/Images/6",
+      "ActiveChallenges": [
+        { "0": "Sleep", "1": "Reduce Mobile Usage", "2": "TeamProject" }
+      ],
+      "Rewards": [{}],
+      "PastChallenges": [{ "0": "Poop" }]
+    }
   },
-  "inez": {
-    "imageLocation": "../Assets/Images/7",
-    "ActiveChallenges": [
-      { "0": "Sleep", "1": "Reduce Mobile Usage", "2": "TeamProject" }
-    ],
-    "Rewards": [{}],
-    "PastChallenges": [{ "0": "Poop" }]
+  {
+    "inez": {
+      "imageLocation": "../Assets/Images/7",
+      "ActiveChallenges": [
+        { "0": "Sleep", "1": "Reduce Mobile Usage", "2": "TeamProject" }
+      ],
+      "Rewards": [{}],
+      "PastChallenges": [{ "0": "Poop" }]
+    }
   },
-  "christina": {
-    "imageLocation": "../Assets/Images/8",
-    "ActiveChallenges": [
-      { "0": "Sleep", "1": "Reduce Mobile Usage", "2": "TeamProject" }
-    ],
-    "Rewards": [{}],
-    "PastChallenges": [{ "0": "Poop" }]
+  {
+    "christina": {
+      "imageLocation": "../Assets/Images/8",
+      "ActiveChallenges": [
+        { "0": "Sleep", "1": "Reduce Mobile Usage", "2": "TeamProject" }
+      ],
+      "Rewards": [{}],
+      "PastChallenges": [{ "0": "Poop" }]
+    }
   },
-  "erin": {
-    "imageLocation": "../Assets/Images/9",
-    "ActiveChallenges": [
-      { "0": "Sleep", "1": "Reduce Mobile Usage", "2": "TeamProject" }
-    ],
-    "Rewards": [{}],
-    "PastChallenges": [{ "0": "Poop" }]
+  {
+    "erin": {
+      "imageLocation": "../Assets/Images/9",
+      "ActiveChallenges": [
+        { "0": "Sleep", "1": "Reduce Mobile Usage", "2": "TeamProject" }
+      ],
+      "Rewards": [{}],
+      "PastChallenges": [{ "0": "Poop" }]
+    }
   },
-  "jessie": {
-    "imageLocation": "../Assets/Images/10",
-    "ActiveChallenges": [
-      { "0": "Sleep", "1": "Reduce Mobile Usage", "2": "TeamProject" }
-    ],
-    "Rewards": [{}],
-    "PastChallenges": [{ "0": "Poop" }]
+  {
+    "jessie": {
+      "imageLocation": "../Assets/Images/10",
+      "ActiveChallenges": [
+        { "0": "Sleep", "1": "Reduce Mobile Usage", "2": "TeamProject" }
+      ],
+      "Rewards": [{}],
+      "PastChallenges": [{ "0": "Poop" }]
+    }
   }
-}
+]
