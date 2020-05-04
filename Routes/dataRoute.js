@@ -10,7 +10,7 @@ router.route("/user").get(getUser)
 
 router.route("/activity").get(getActivity)
 
-router.route("/activity").put(addActivity)
+router.route("/activity").post(addActivity)
 
 router.route("/activity").post(upActivity)
 

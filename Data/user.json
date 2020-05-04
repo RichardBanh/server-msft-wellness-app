@@ -4,69 +4,99 @@
     "imageLocation": "../Assets/Images/1",
     "ActiveChallenges": ["Sleep", "Reduce Mobile Usage", "TeamProject"],
     "Rewards": [],
-    "PastChallenges": ["Poop"]
+    "PastChallenges": {
+      "Name": "Poop",
+      "Date": { "Start": "06/10/20", "End": "07/10/20" }
+    }
   },
   {
     "user": "tom",
     "imageLocation": "../Assets/Images/2",
     "ActiveChallenges": ["Sleep", "Reduce Mobile Usage", "TeamProject"],
     "Rewards": [],
-    "PastChallenges": ["Poop"]
+    "PastChallenges": {
+      "Name": "Poop",
+      "Date": { "Start": "06/10/20", "End": "07/10/20" }
+    }
   },
   {
     "user": "tony",
     "imageLocation": "../Assets/Images/3",
     "ActiveChallenges": ["Sleep", "Reduce Mobile Usage", "TeamProject"],
     "Rewards": [],
-    "PastChallenges": ["Poop"]
+    "PastChallenges": {
+      "Name": "Poop",
+      "Date": { "Start": "06/10/20", "End": "07/10/20" }
+    }
   },
   {
     "user": "cathy",
     "imageLocation": "../Assets/Images/4",
     "ActiveChallenges": ["Sleep", "Reduce Mobile Usage", "TeamProject"],
     "Rewards": [],
-    "PastChallenges": ["Poop"]
+    "PastChallenges": {
+      "Name": "Poop",
+      "Date": { "Start": "06/10/20", "End": "07/10/20" }
+    }
   },
   {
     "user": "mohammed",
     "imageLocation": "../Assets/Images/5",
     "ActiveChallenges": ["Sleep", "Reduce Mobile Usage", "TeamProject"],
     "Rewards": [],
-    "PastChallenges": ["Poop"]
+    "PastChallenges": {
+      "Name": "Poop",
+      "Date": { "Start": "06/10/20", "End": "07/10/20" }
+    }
   },
   {
     "user": "keith",
     "imageLocation": "../Assets/Images/6",
     "ActiveChallenges": ["Sleep", "Reduce Mobile Usage", "TeamProject"],
     "Rewards": [],
-    "PastChallenges": ["Poop"]
+    "PastChallenges": {
+      "Name": "Poop",
+      "Date": { "Start": "06/10/20", "End": "07/10/20" }
+    }
   },
   {
     "user": "inez",
     "imageLocation": "../Assets/Images/7",
     "ActiveChallenges": ["Sleep", "Reduce Mobile Usage", "TeamProject"],
     "Rewards": [],
-    "PastChallenges": ["Poop"]
+    "PastChallenges": {
+      "Name": "Poop",
+      "Date": { "Start": "06/10/20", "End": "07/10/20" }
+    }
   },
   {
     "user": "christina",
     "imageLocation": "../Assets/Images/8",
     "ActiveChallenges": ["Sleep", "Reduce Mobile Usage", "TeamProject"],
     "Rewards": [],
-    "PastChallenges": ["Poop"]
+    "PastChallenges": {
+      "Name": "Poop",
+      "Date": { "Start": "06/10/20", "End": "07/10/20" }
+    }
   },
   {
     "user": "erin",
     "imageLocation": "../Assets/Images/9",
     "ActiveChallenges": ["Sleep", "Reduce Mobile Usage", "TeamProject"],
     "Rewards": [],
-    "PastChallenges": ["Poop"]
+    "PastChallenges": {
+      "Name": "Poop",
+      "Date": { "Start": "06/10/20", "End": "07/10/20" }
+    }
   },
   {
     "user": "jessie",
     "imageLocation": "../Assets/Images/10",
     "ActiveChallenges": ["Sleep", "Reduce Mobile Usage", "TeamProject"],
     "Rewards": [],
-    "PastChallenges": ["Poop"]
+    "PastChallenges": {
+      "Name": "Poop",
+      "Date": { "Start": "06/10/20", "End": "07/10/20" }
+    }
   }
 ]

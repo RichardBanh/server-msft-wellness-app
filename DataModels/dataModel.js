@@ -10,8 +10,6 @@ const UserSchema = new mongoose.Schema({
   },
   email: {
     type: String,
-    unique: true,
-    trim: true,
     required: false,
   },
   imageLocation: {
@@ -60,8 +58,7 @@ const ChallengesSchema = new mongoose.Schema({
     {
       user: String,
       progress: String,
-      start: Date,
-      end: Date,
+      Date: { Start: Date, End: Date },
       notes: String,
       images: String,
       milestones: [{ notes: String, date: Date }],
