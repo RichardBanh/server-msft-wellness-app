@@ -2,7 +2,11 @@
   {
     "user": "janice12",
     "imageLocation": "../Assets/Images/1",
-    "ActiveChallenges": ["Sleep", "Reduce Mobile Usage", "TeamProject"],
+    "ActiveChallenges": [
+      "Sleep",
+      "Reduce Mobile Usage",
+      "Sleep at 11:00PM Everyday"
+    ],
     "Rewards": [],
     "PastChallenges": {
       "Name": "Poop",

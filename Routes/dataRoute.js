@@ -1,18 +1,26 @@
 const express = require("express");
-const {getData, createUser, getUser, deletUserfromActivity, addActivity, getActivity, upActivity} = require("../Controllers/dataController")
+const {
+  createUser,
+  getUser,
+  deletUserfromActivity,
+  addActivity,
+  getActivity,
+  upActivity,
+  upUser,
+} = require("../Controllers/dataController");
 const router = express.Router();
 
-router.route("/").get(getData)
+router.route("/createUser").post(createUser);
 
-router.route("/createUser").post(createUser)
+router.route("/user").get(getUser);
 
-router.route("/user").get(getUser)
+router.route("/user").put(upUser);
 
-router.route("/activity").get(getActivity)
+router.route("/activity").get(getActivity);
 
-router.route("/activity").post(addActivity)
+router.route("/activity").post(addActivity);
 
-router.route("/activity").post(upActivity)
+router.route("/activity").post(upActivity);
 
-router.route("/activity").delete(deletUserfromActivity)
+router.route("/activity").delete(deletUserfromActivity);
 module.exports = router;
