@@ -54,17 +54,20 @@ const ChallengesSchema = new mongoose.Schema({
     type: [String],
     required: true,
   },
-  participants: [{
-    user: String,
-    progress: String,
-    Date: { Start: Date, End: Date },
-    notes: String,
-    images: String,
-    milestones: [{ notes: String, date: Date }],
-    required: false,
-  }],
+  participants: [
+    {
+      user: String,
+      progress: String,
+      Date: { Start: Date, End: Date },
+      notes: String,
+      images: String,
+      milestones: [{ notes: String, date: Date }],
+      required: false,
+    },
+  ],
 });
-
+//To run something presave schema.pre('save', async function(next) 
+//{next(await)})  ... video 31
 const userModel = mongoose.model("userModel", UserSchema);
 const challengesModel = mongoose.model("challengesModel", ChallengesSchema);
 

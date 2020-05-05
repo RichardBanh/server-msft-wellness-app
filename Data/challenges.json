@@ -1,172 +1,230 @@
-[
-  {
-    "name": "Make Dalgona Coffee",
-    "ACTIVE": "active",
-    "start": "12/01/2020",
-    "BannerImg": "",
-    "category": ["Food"],
-    "participants": [
-      {
-        "user": "Janice12",
-        "progress": "20%",
-        "notes": "",
-        "images": "",
-        "milestones": [],
-        "Date": { "Start": "10/10/20", "End": "10/20/20" }
+[{
+  
+  "name": "Make Dalgona Coffee",
+  "ACTIVE": "active",
+  "start": "12/01/2020",
+  "BannerImg": "",
+  "category": [
+    "Food"
+  ],
+  "participants": []
+},{
+  
+  "name": "Social Media Detox",
+  "ACTIVE": "active",
+  "start": "12/01/2020",
+  "BannerImg": "",
+  "category": [
+    "Health & Wellbeing"
+  ],
+  "participants": [
+    {
+      "user": "tom",
+      "progress": "40%",
+      "notes": "",
+      "images": "",
+      "milestones": [],
+      "Date": {
+        "Start": "10/10/20",
+        "End": "10/20/20"
       }
-    ]
-  },
-  {
-    "name": "Social Media Detox",
-    "ACTIVE": "active",
-    "start": "12/01/2020",
-    "BannerImg": "",
-    "category": ["Health & Wellbeing"],
-    "participants": [
-      {
-        "user": "tom",
-        "progress": "40%",
-        "notes": "",
-        "images": "",
-        "milestones": [],
-        "Date": { "Start": "10/10/20", "End": "10/20/20" }
+    }
+  ]
+},{
+  
+  "name": "Show Your Home Office",
+  "ACTIVE": "active",
+  "start": "12/01/2020",
+  "BannerImg": "",
+  "category": [
+    "Photography"
+  ],
+  "participants": [
+    {
+      "user": "tony",
+      "progress": "30%",
+      "notes": "",
+      "images": "",
+      "milestones": [],
+      "Date": {
+        "Start": "10/10/20",
+        "End": "10/20/20"
       }
-    ]
-  },
-  {
-    "name": "Show Your Home Office",
-    "ACTIVE": "active",
-    "start": "12/01/2020",
-    "BannerImg": "",
-    "category": ["Photography"],
-    "participants": [
-      {
-        "user": "tony",
-        "progress": "30%",
-        "notes": "",
-        "images": "",
-        "milestones": [],
-        "Date": { "Start": "10/10/20", "End": "10/20/20" }
+    }
+  ]
+},{
+  
+  "name": "Read a Book Every Week",
+  "ACTIVE": "active",
+  "start": "12/01/2020",
+  "BannerImg": "",
+  "category": [
+    "Health & Wellbeing"
+  ],
+  "participants": [
+    {
+      "user": "tom",
+      "progress": "50%",
+      "notes": "",
+      "images": "",
+      "milestones": [],
+      "Date": {
+        "Start": "10/10/20",
+        "End": "10/20/20"
       }
-    ]
-  },
-  {
-    "name": "Read a Book Every Week",
-    "ACTIVE": "active",
-    "start": "12/01/2020",
-    "BannerImg": "",
-    "category": ["Health & Wellbeing"],
-    "participants": [
-      {
-        "user": "tom",
-        "progress": "50%",
-        "notes": "",
-        "images": "",
-        "milestones": [],
-        "Date": { "Start": "10/10/20", "End": "10/20/20" }
+    },
+    {
+      "user": "janice12",
+      "progress": "65%",
+      "notes": "",
+      "images": "",
+      "milestones": [],
+      "Date": {
+        "Start": "10/10/20",
+        "End": "10/20/20"
       }
-    ]
-  },
-  {
-    "name": "Sleep at 11:00PM Everyday",
-    "ACTIVE": "active",
-    "start": "12/01/2020",
-    "BannerImg": "",
-    "category": ["Health & Wellbeing"],
-    "participants": [
-      {
-        "user": "cathy",
-        "progress": "65%",
-        "notes": "",
-        "images": "",
-        "milestones": [],
-        "Date": { "Start": "10/10/20", "End": "10/20/20" }
+    }
+  ]
+},{
+   "name": "Sleep at 11:00PM Everyday",
+  "ACTIVE": "active",
+  "start": "12/01/2020",
+  "BannerImg": "",
+  "category": [
+    "Health & Wellbeing"
+  ],
+  "participants": [
+    {
+      "user": "cathy",
+      "progress": "65%",
+      "notes": "",
+      "images": "",
+      "milestones": [],
+      "Date": {
+        "Start": "10/10/20",
+        "End": "10/20/20"
       }
-    ]
-  },
-  {
-    "name": "Reduce Mobile Usage",
-    "ACTIVE": "active",
-    "start": "12/01/2020",
-    "BannerImg": "",
-    "category": ["Health & Wellbeing"],
-    "participants": [
-      {
-        "user": "keith",
-        "progress": "90%",
-        "notes": "",
-        "images": "",
-        "milestones": [],
-        "Date": { "Start": "10/10/20", "End": "10/20/20" }
+    },
+{
+      "user": "janice12",
+      "progress": "65%",
+      "notes": "",
+      "images": "",
+      "milestones": [],
+      "Date": {
+        "Start": "10/10/20",
+        "End": "10/20/20"
       }
-    ]
-  },
-  {
-    "name": "Learn the Basic Guitar Chords",
-    "ACTIVE": "active",
-    "start": "12/01/2020",
-    "BannerImg": "",
-    "category": ["Health & Wellbeing"],
-    "participants": [
-      {
-        "user": "tony",
-        "progress": "1%",
-        "notes": "",
-        "images": "",
-        "milestones": [],
-        "Date": { "Start": "10/10/20", "End": "10/20/20" }
+    }
+  ]
+},{
+  
+  "name": "Reduce Mobile Usage",
+  "ACTIVE": "active",
+  "start": "12/01/2020",
+  "BannerImg": "",
+  "category": [
+    "Health & Wellbeing"
+  ],
+  "participants": [
+    {
+      "user": "keith",
+      "progress": "90%",
+      "notes": "",
+      "images": "",
+      "milestones": [],
+      "Date": {
+        "Start": "10/10/20",
+        "End": "10/20/20"
       }
-    ]
-  },
-  {
-    "name": "Dance Competition",
-    "ACTIVE": "active",
-    "start": "12/01/2020",
-    "BannerImg": "",
-    "category": ["Music"],
-    "participants": [
-      {
-        "user": "tony",
-        "progress": "100%",
-        "notes": "",
-        "images": "",
-        "milestones": [],
-        "Date": { "Start": "10/10/20", "End": "10/20/20" }
+    }
+  ]
+},{
+  
+  "name": "Learn the Basic Guitar Chords",
+  "ACTIVE": "active",
+  "start": "12/01/2020",
+  "BannerImg": "",
+  "category": [
+    "Health & Wellbeing"
+  ],
+  "participants": [
+    {
+      "user": "tony",
+      "progress": "1%",
+      "notes": "",
+      "images": "",
+      "milestones": [],
+      "Date": {
+        "Start": "10/10/20",
+        "End": "10/20/20"
       }
-    ]
-  },
-  {
-    "name": "Virtual Home Yoga",
-    "ACTIVE": "active",
-    "start": "12/01/2020",
-    "BannerImg": "",
-    "category": ["Music"],
-    "participants": [
-      {
-        "user": "cathy",
-        "progress": "20%",
-        "notes": "",
-        "images": "",
-        "milestones": [],
-        "Date": { "Start": "10/10/20", "End": "10/20/20" }
+    }
+  ]
+},{
+  
+  "name": "Dance Competition",
+  "ACTIVE": "active",
+  "start": "12/01/2020",
+  "BannerImg": "",
+  "category": [
+    "Music"
+  ],
+  "participants": [
+    {
+      "user": "tony",
+      "progress": "100%",
+      "notes": "",
+      "images": "",
+      "milestones": [],
+      "Date": {
+        "Start": "10/10/20",
+        "End": "10/20/20"
       }
-    ]
-  },
-  {
-    "name": "Gingerbread House Contest",
-    "ACTIVE": "active",
-    "start": "12/01/2020",
-    "BannerImg": "",
-    "category": ["Arts & Crafts"],
-    "participants": [
-      {
-        "user": "christina",
-        "progress": "100%",
-        "notes": "",
-        "images": "",
-        "milestones": [],
-        "Date": { "Start": "10/10/20", "End": "10/20/20" }
+    }
+  ]
+},{
+  
+  "name": "Virtual Home Yoga",
+  "ACTIVE": "active",
+  "start": "12/01/2020",
+  "BannerImg": "",
+  "category": [
+    "Music"
+  ],
+  "participants": [
+    {
+      "user": "cathy",
+      "progress": "20%",
+      "notes": "",
+      "images": "",
+      "milestones": [],
+      "Date": {
+        "Start": "10/10/20",
+        "End": "10/20/20"
       }
-    ]
-  }
-]
+    }
+  ]
+},{
+  
+  "name": "Gingerbread House Contest",
+  "ACTIVE": "active",
+  "start": "12/01/2020",
+  "BannerImg": "",
+  "category": [
+    "Arts & Crafts"
+  ],
+  "participants": [
+    {
+      "user": "christina",
+      "progress": "100%",
+      "notes": "",
+      "images": "",
+      "milestones": [],
+      "Date": {
+        "Start": "10/10/20",
+        "End": "10/20/20"
+      }
+    }
+  ]
+}]

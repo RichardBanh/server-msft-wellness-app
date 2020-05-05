@@ -111,3 +111,5 @@ exports.upActivity = (req, res, next) => {
     .status(200)
     .json({ success: true, msg: `updated this activity ${req.params.id}` });
 };
+
+//could also add error handler and (async to remove catch)
