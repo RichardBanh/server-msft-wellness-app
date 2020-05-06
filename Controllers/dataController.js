@@ -3,10 +3,12 @@ const { userModel, challengesModel } = require("../DataModels/dataModel");
 exports.createUser = async (req, res, next) => {
   try {
     const dataUser = await userModel.create(req.body);
+    const token = dataUser.getSignedJWT();
     res.status(201).json({
       success: true,
       msg: `user created`,
       data: dataUser,
+      token,
     });
   } catch (error) {
     res.status(400).json({ success: false, whathappened: error });
@@ -47,6 +49,38 @@ exports.upUser = async (req, res, next) => {
       sucess: true,
       msg: `updating ${req.body.user}`,
       dataUpdate: upUser,
+    });
+  } catch (error) {
+    res.status(400).json({ success: false, whathappened: error });
+  }
+};
+
+exports.loginUser = async (req, res, next) => {
+  try {
+    const { email, password } = req.body;
+    if (!email || !password) {
+      res
+        .status(400)
+        .json({ sucess: false, whathappened: "no email or password" });
+    }
+    const dataUser = await userModel.findOne({ email }).select("+password");
+    if (!dataUser) {
+      res
+        .status(400)
+        .json({ sucess: false, whathappened: "invalid credentials" });
+    }
+    const doesPasswordMatch = await dataUser.matchPassword(password);
+    if (!doesPasswordMatch) {
+      res
+        .status(400)
+        .json({ sucess: false, whathappened: "invalid credentials" });
+    }
+    const token = dataUser.getSignedJWT();
+    res.status(201).json({
+      success: true,
+      message: "signed in",
+      data: dataUser,
+      token,
     });
   } catch (error) {
     res.status(400).json({ success: false, whathappened: error });

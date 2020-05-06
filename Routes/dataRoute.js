@@ -6,7 +6,7 @@ const {
   addActivity,
   getActivity,
   upActivity,
-  upUser,
+  upUser, loginUser
 } = require("../Controllers/dataController");
 const router = express.Router();
 
@@ -15,6 +15,7 @@ router.route("/createUser").post(createUser);
 router.route("/user").get(getUser);
 
 router.route("/user").put(upUser);
+router.route("/login").get(loginUser)
 
 router.route("/activity").get(getActivity);
 

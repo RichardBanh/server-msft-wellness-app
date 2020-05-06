@@ -7,7 +7,7 @@ const connectData = require('./Config/db')
 
 connectData()
 
-const consoleLogger = require("./Middleware/middleware");
+const {consoleLogger} = require("./Middleware/middleware");
 
 //CRUD
 const dataRoute = require("./Routes/dataRoute");
