@@ -35,7 +35,7 @@ exports.getUser = async (req, res, next) => {
 };
 
 exports.upUser = async (req, res, next) => {
-  console.log(req.body.user)
+  console.log(req.body.user);
   try {
     const upUser = await userModel.findOneAndUpdate(req.body.user, {
       $addToSet: req.body.upWhat,
@@ -88,6 +88,16 @@ const sendTokenByCookie = (dataUser, status, res, message) => {
     .status(status)
     .cookie("token", token, options)
     .json({ success: true, token, message });
+};
+
+exports.logout = async (req, res, next) => {
+  res.cookie(
+    "token",
+    "none",
+    { expires: new Date(Date.now() + 10) },
+    { httpOnly: true }
+  );
+  res.status(200).json({ message: "logged out" });
 };
 
 exports.deletUserfromActivity = async (req, res, next) => {

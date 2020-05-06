@@ -8,6 +8,7 @@ const {
   upActivity,
   upUser,
   loginUser,
+  logout,
 } = require("../Controllers/dataController");
 const { protection } = require("../Middleware/middleware");
 const router = express.Router();
@@ -18,7 +19,7 @@ router.route("/user").get(protection, getUser);
 
 router.route("/user").put(protection, upUser);
 router.route("/login").get(loginUser);
-
+router.route("/logout").get(logout);
 router.route("/activity").get(protection, getActivity);
 
 router.route("/activity").post(protection, addActivity);

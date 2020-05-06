@@ -2,19 +2,20 @@ const express = require("express");
 const dotenv = require("dotenv");
 dotenv.config({ path: "./Config/config.env" });
 const app = express();
-app.use(express.json())
-const connectData = require('./Config/db')
-const cookieparser = require('cookie-parser')
+app.use(express.json());
+const connectData = require("./Config/db");
+const cookieparser = require("cookie-parser");
 
-connectData()
+connectData();
 
-const {consoleLogger} = require("./Middleware/middleware");
+const { consoleLogger } = require("./Middleware/middleware");
 
 //CRUD
 const dataRoute = require("./Routes/dataRoute");
 
 // middleware
 app.use(consoleLogger);
+
 
 //routes
 app.use("/", dataRoute);
@@ -25,5 +26,5 @@ const serve = app.listen(port, () => console.log(`Listening on port ${port}`));
 
 process.on("unhandledRejection", (err, promise) => {
   console.log(`Error is: ${err.message}`);
-  serve.close(() => process.exit(1))
-})
+  serve.close(() => process.exit(1));
+});
