@@ -6,22 +6,24 @@ const {
   addActivity,
   getActivity,
   upActivity,
-  upUser, loginUser
+  upUser,
+  loginUser,
 } = require("../Controllers/dataController");
+const { protection } = require("../Middleware/middleware");
 const router = express.Router();
 
 router.route("/createUser").post(createUser);
 
-router.route("/user").get(getUser);
+router.route("/user").get(protection, getUser);
 
-router.route("/user").put(upUser);
-router.route("/login").get(loginUser)
+router.route("/user").put(protection, upUser);
+router.route("/login").get(loginUser);
 
-router.route("/activity").get(getActivity);
+router.route("/activity").get(protection, getActivity);
 
-router.route("/activity").post(addActivity);
+router.route("/activity").post(protection, addActivity);
 
-router.route("/activity").post(upActivity);
+router.route("/activity").post(protection, upActivity);
 
-router.route("/activity").delete(deletUserfromActivity);
+router.route("/activity").delete(protection, deletUserfromActivity);
 module.exports = router;

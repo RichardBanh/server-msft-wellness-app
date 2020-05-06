@@ -4,6 +4,7 @@ dotenv.config({ path: "./Config/config.env" });
 const app = express();
 app.use(express.json())
 const connectData = require('./Config/db')
+const cookieparser = require('cookie-parser')
 
 connectData()
 

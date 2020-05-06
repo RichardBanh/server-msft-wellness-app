@@ -3,13 +3,7 @@ const { userModel, challengesModel } = require("../DataModels/dataModel");
 exports.createUser = async (req, res, next) => {
   try {
     const dataUser = await userModel.create(req.body);
-    const token = dataUser.getSignedJWT();
-    res.status(201).json({
-      success: true,
-      msg: `user created`,
-      data: dataUser,
-      token,
-    });
+    sendTokenByCookie(dataUser, 200, res, "user created!");
   } catch (error) {
     res.status(400).json({ success: false, whathappened: error });
   }
@@ -41,13 +35,14 @@ exports.getUser = async (req, res, next) => {
 };
 
 exports.upUser = async (req, res, next) => {
+  console.log(req.body.user)
   try {
     const upUser = await userModel.findOneAndUpdate(req.body.user, {
       $addToSet: req.body.upWhat,
     });
     res.status(201).json({
       sucess: true,
-      msg: `updating ${req.body.user}`,
+      msg: `updating ${req.body.user.user}`,
       dataUpdate: upUser,
     });
   } catch (error) {
@@ -75,16 +70,24 @@ exports.loginUser = async (req, res, next) => {
         .status(400)
         .json({ sucess: false, whathappened: "invalid credentials" });
     }
-    const token = dataUser.getSignedJWT();
-    res.status(201).json({
-      success: true,
-      message: "signed in",
-      data: dataUser,
-      token,
-    });
+    sendTokenByCookie(dataUser, 200, res, "user logged in!");
   } catch (error) {
     res.status(400).json({ success: false, whathappened: error });
   }
+};
+//Get token from model
+const sendTokenByCookie = (dataUser, status, res, message) => {
+  const token = dataUser.getSignedJWT();
+  const options = {
+    expires: new Date(
+      Date.now() + process.env.COOKIE_EXPIRE * 25 * 60 * 60 * 1000
+    ),
+    httpOnly: true,
+  };
+  res
+    .status(status)
+    .cookie("token", token, options)
+    .json({ success: true, token, message });
 };
 
 exports.deletUserfromActivity = async (req, res, next) => {
