@@ -16,7 +16,6 @@ const router = express.Router();
 router.route("/createUser").post(createUser);
 
 router.route("/user").get(protection, getUser);
-
 router.route("/user").put(protection, upUser);
 router.route("/login").get(loginUser);
 router.route("/logout").get(logout);

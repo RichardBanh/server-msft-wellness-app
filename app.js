@@ -5,6 +5,7 @@ const app = express();
 app.use(express.json());
 const connectData = require("./Config/db");
 const cookieparser = require("cookie-parser");
+const sanitizer = require("express-mongo-sanitize");
 
 connectData();
 
@@ -13,9 +14,9 @@ const { consoleLogger } = require("./Middleware/middleware");
 //CRUD
 const dataRoute = require("./Routes/dataRoute");
 
+app.use(sanitizer());
 // middleware
 app.use(consoleLogger);
-
 
 //routes
 app.use("/", dataRoute);
