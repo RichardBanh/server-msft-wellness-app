@@ -6,15 +6,27 @@ app.use(express.json());
 const connectData = require("./Config/db");
 const cookieparser = require("cookie-parser");
 const sanitizer = require("express-mongo-sanitize");
+const helmet = require("helmet");
+const xss = require("xss-clean");
+const rateLimit = require("express-rate-limit");
 
+//connection
 connectData();
 
 const { consoleLogger } = require("./Middleware/middleware");
 
+//Api protection
+const Limit = rateLimit({ windowMs: 10 * 60 * 1000, max: 100 });
+app.use(Limit);
+
+app.use(sanitizer());
+app.use(helmet());
+app.use(xss());
+
+
 //CRUD
 const dataRoute = require("./Routes/dataRoute");
 
-app.use(sanitizer());
 // middleware
 app.use(consoleLogger);
 
