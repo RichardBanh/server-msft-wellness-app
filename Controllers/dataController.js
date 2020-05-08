@@ -53,24 +53,24 @@ exports.upUser = async (req, res, next) => {
 exports.loginUser = async (req, res, next) => {
   try {
     const { email, password } = req.body;
+    console.log(email, password);
+    const dataUser = await userModel.findOne({ email }).select("+password");
+    const doesPasswordMatch = await dataUser.matchPassword(password);
     if (!email || !password) {
       res
         .status(400)
         .json({ sucess: false, whathappened: "no email or password" });
-    }
-    const dataUser = await userModel.findOne({ email }).select("+password");
-    if (!dataUser) {
+    } else if (!dataUser) {
       res
         .status(400)
         .json({ sucess: false, whathappened: "invalid credentials" });
-    }
-    const doesPasswordMatch = await dataUser.matchPassword(password);
-    if (!doesPasswordMatch) {
+    } else if (!doesPasswordMatch) {
       res
         .status(400)
         .json({ sucess: false, whathappened: "invalid credentials" });
+    } else {
+      sendTokenByCookie(dataUser, 200, res, "user logged in!");
     }
-    sendTokenByCookie(dataUser, 200, res, "user logged in!");
   } catch (error) {
     res.status(400).json({ success: false, whathappened: error });
   }
