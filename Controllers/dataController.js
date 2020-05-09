@@ -53,18 +53,20 @@ exports.upUser = async (req, res, next) => {
 exports.loginUser = async (req, res, next) => {
   try {
     const { email, password } = req.body;
-    console.log(email, password);
+    console.log(req.body);
+    console.log(email);
     const dataUser = await userModel.findOne({ email }).select("+password");
-    const doesPasswordMatch = await dataUser.matchPassword(password);
-    if (!email || !password) {
+    if (!email || !password || email === "" || password === "") {
       res
         .status(400)
         .json({ sucess: false, whathappened: "no email or password" });
-    } else if (!dataUser) {
+    } else if (dataUser === null) {
       res
         .status(400)
         .json({ sucess: false, whathappened: "invalid credentials" });
-    } else if (!doesPasswordMatch) {
+    }
+    const doesPasswordMatch = await dataUser.matchPassword(password);
+    if (!doesPasswordMatch) {
       res
         .status(400)
         .json({ sucess: false, whathappened: "invalid credentials" });
@@ -75,6 +77,7 @@ exports.loginUser = async (req, res, next) => {
     res.status(400).json({ success: false, whathappened: error });
   }
 };
+
 //Get token from model
 const sendTokenByCookie = (dataUser, status, res, message) => {
   const token = dataUser.getSignedJWT();
