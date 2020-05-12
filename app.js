@@ -14,7 +14,19 @@ const { consoleLogger } = require("./Middleware/middleware");
 //connection
 connectData();
 
-app.use(cors());
+const corsOptions = {
+  origin: "http://localhost:3000",
+  methods: "GET,PUT,POST,DELETE",
+  credentials:true,
+  allowedHeaders: [
+    "Origin",
+    "X-Requested-With",
+    "Content-Type",
+    "Accept",
+    "Authorization",
+  ],
+};
+app.use(cors(corsOptions));
 
 //Api protection
 const Limit = rateLimit({ windowMs: 10 * 60 * 1000, max: 100 });
