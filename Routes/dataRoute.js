@@ -18,7 +18,7 @@ router.route("/createUser").post(createUser);
 router.route("/user").get(protection, getUser);
 router.route("/user").put(protection, upUser);
 router.route("/login").post(loginUser);
-router.route("/logout").get(logout);
+router.route("/logout").post(logout);
 router.route("/activity").get(protection, getActivity);
 
 router.route("/activity").post(protection, addActivity);
