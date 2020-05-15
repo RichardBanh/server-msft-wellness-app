@@ -21,13 +21,14 @@ const asyncHandler = (fn) => (req, res, next) => {
 
 const protection = async (req, res, next) => {
   let token;
+  console.log(req.cookies)
   if (
     req.headers.authorization &&
     req.headers.authorization.startsWith("Bearer")
   ) {
     token = req.headers.authorization.split(" ")[1];
-  } else if (req.cookie.token) {
-    token = req.cookie.token;
+  } else if (req.cookies.token) {
+    token = req.cookies.token;
   }
   if (!token) {
     res.status(401).json({ message: "not authorized" });
@@ -35,7 +36,7 @@ const protection = async (req, res, next) => {
     try {
       const decoded = jwt.verify(token, process.env.JWT_SECRET);
       req.user = await userModel.findById(decoded.id);
-      console.log(req.user)
+      console.log("user found")
       next();
     } catch (error) {
       res.status(401).json({ message: "not authorized" });

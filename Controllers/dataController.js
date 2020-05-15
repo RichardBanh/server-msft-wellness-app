@@ -11,13 +11,19 @@ exports.createUser = async (req, res, next) => {
 
 exports.getUser = async (req, res, next) => {
   try {
-    const dataUser = await userModel.find(req.body);
-    if (req.body.user === undefined || req.body === undefined) {
+    console.log(req.user);
+    const dataUser = await userModel.find(req.user);
+    console.log("data user ran");
+    if (dataUser === undefined || dataUser === undefined || dataUser === "") {
       res.status(405).json({
         success: false,
         msg: `No body or no username sent`,
       });
-    } else if (dataUser.length === 0) {
+    } else if (
+      dataUser.length === 0 ||
+      dataUser.length > 1 ||
+      dataUser.length < 0
+    ) {
       res.status(403).json({
         success: false,
         msg: `get single user ${req.body.user}: NOT FOUND`,
@@ -25,8 +31,14 @@ exports.getUser = async (req, res, next) => {
     } else {
       res.status(201).json({
         success: true,
-        msg: `get single user ${req.body.user}`,
-        data: dataUser,
+        msg: `sucess`,
+        data: {
+          activeChallenges: dataUser[0].ActiveChallenges,
+          rewards: dataUser[0].Rewards,
+          user: dataUser[0].user,
+          email: dataUser[0].email,
+          pastChallenges: dataUser[0].PastChallenges,
+        },
       });
     }
   } catch (error) {
