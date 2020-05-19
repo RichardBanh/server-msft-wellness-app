@@ -58,3 +58,5 @@ if (process.argv[3] === "-delete" && process.argv[2] === "-user") {
 } else if (process.argv[3] === "-import" && process.argv[2] === "-challenges") {
   importChallengesData();
 }
+
+// node datafeed.js -challenges -import
