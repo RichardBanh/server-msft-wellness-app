@@ -157,7 +157,14 @@ exports.addActivity = async (req, res, next) => {
 
 exports.getActivity = async (req, res, next) => {
   try {
-    const dataActivity = await challengesModel.find(req.body);
+    console.log("data body:");
+    console.log(req.body);
+    // const dataActivity = await challengesModel.find(req.body);
+    // console.log(dataActivity)
+    const dataActivity = await challengesModel.find({
+      name: [`${req.body[0]}`, `${req.body[1]}`, `${req.body[2]}`],
+    });
+    console.log(dataActivity);
     res.status(201).json({
       success: true,
       msg: `activity found ${req.params}`,
