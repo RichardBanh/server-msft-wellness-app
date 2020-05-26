@@ -11,7 +11,7 @@
     "name": "Social Media Detox",
     "ACTIVE": "active",
     "start": "12/01/2020",
-    "BannerImg": "",
+    "BannerImg": "/Images/ChallengesImages/phone.png",
     "category": ["Health & Wellbeing"],
     "participants": [
       {
@@ -42,7 +42,7 @@
     "name": "Show Your Home Office",
     "ACTIVE": "active",
     "start": "12/01/2020",
-    "BannerImg": "",
+    "BannerImg": "/Images/ChallengesImages/office.png",
     "category": ["Photography"],
     "participants": [
       {
@@ -73,7 +73,7 @@
     "name": "Read a Book Every Week",
     "ACTIVE": "active",
     "start": "12/01/2020",
-    "BannerImg": "",
+    "BannerImg": "/Images/ChallengesImages/book.jpg",
     "category": ["Health & Wellbeing"],
     "participants": [
       {
@@ -104,7 +104,7 @@
     "name": "Sleep at 11:00PM Everyday",
     "ACTIVE": "active",
     "start": "12/01/2020",
-    "BannerImg": "",
+    "BannerImg": "/Images/ChallengesImages/office.png",
     "category": ["Health & Wellbeing"],
     "participants": [
       {
@@ -135,7 +135,7 @@
     "name": "Reduce Mobile Usage",
     "ACTIVE": "active",
     "start": "12/01/2020",
-    "BannerImg": "",
+    "BannerImg": "/Images/ChallengesImages/phone.png",
     "category": ["Health & Wellbeing"],
     "participants": [
       {
